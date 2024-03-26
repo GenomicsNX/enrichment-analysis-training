@@ -219,7 +219,7 @@ GO_NK_Th@result %>%
 
 ```
   <figure>
-  <img src="../assets/images/barplot_p_value.png" width="500"/>
+  <img src="../docs/assets/images/barplot_p_value.png" width="500"/>
   </figure>
 
 
@@ -238,7 +238,7 @@ sorted_GO_NK_Th %>%
   theme(legend.position = "none")
 ```
   <figure>
-  <img src="../assets/images/barplot_NES.png" width="700"/>
+  <img src="../docs/assets/images/barplot_NES.png" width="700"/>
   </figure>
 
 
@@ -311,7 +311,7 @@ ggsave(plot = p, filename = "heatmap_p_value_ORA.png",
 You will obtain the following heatmap:
   
   <figure>
-  <img src="../assets/images/heatmap_p_value_ORA.png" width="300"/>
+  <img src="../docs/assets/images/heatmap_p_value_ORA.png" width="300"/>
   </figure>
 
 ## Code for a lollipop plot with ggplot2
@@ -368,7 +368,7 @@ p
 You will obtain the following lollipop plot :
   
   <figure>
-  <img src="../assets/images/lollipop.png" width="700"/>
+  <img src="../docs/assets/images/lollipop.png" width="700"/>
   </figure>
 
 
