@@ -230,7 +230,7 @@ ggplot(NK_vs_Th, aes(x = logFC,  #
 ```
 
   <figure>
-  <img src="../assets/images/bonus_volcano.png" width="700"/>
+  <img src="../docs/assets/images/bonus_volcano.png" width="700"/>
   </figure>
 
 
@@ -367,7 +367,7 @@ abline(v=-log10(0.05))
 ```
 
   <figure>
-  <img src="../assets/images/barplot1.png" width="700"/>
+  <img src="../docs/assets/images/barplot1.png" width="700"/>
   </figure>
 
 In publications, we often see barplots of normalized enrichment scores (NES), showing which gene sets are up-regulated and which are down-regulated.
@@ -391,7 +391,7 @@ Now that you know how to use the ```barplot()``` function, how would you create 
       	
 	```
 	  <figure>
-    <img src="../assets/images/barplot2.png" width="700"/>
+    <img src="../docs/assets/images/barplot2.png" width="700"/>
     </figure>
 
 
@@ -435,11 +435,11 @@ gseaplot(GO_NK_Th, geneSetID = "GO:0002443",
 ```
 
   <figure>
-  <img src="../assets/images/gseaplot1.png" width="700"/>
+  <img src="../docs/assets/images/gseaplot1.png" width="700"/>
   </figure>
 
   <figure>
-  <img src="../assets/images/gseaplot2.png" width="700"/>
+  <img src="../docs/assets/images/gseaplot2.png" width="700"/>
   </figure>
 
 
@@ -452,7 +452,7 @@ enrichplot::dotplot(GO_enrich, orderBy="p.adjust")
 enrichplot::dotplot(GO_NK_Th, orderBy="p.adjust")
 ```
   <figure>
-  <img src="../assets/images/enrichplot1.png" width="700"/>
+  <img src="../docs/assets/images/enrichplot1.png" width="700"/>
   </figure>
 
 ```r
@@ -462,7 +462,7 @@ cnetplot(GO_NK_Th, showCategory = 3)
 ```
 
   <figure>
-  <img src="../assets/images/cnetplot1.png" width="700"/>
+  <img src="../docs/assets/images/cnetplot1.png" width="700"/>
   </figure>
 
 
@@ -490,7 +490,7 @@ ridgeplot(GO_NK_Th_selection)
 ```
 
   <figure>
-  <img src="../assets/images/ridgeplot1.png" width="700"/>
+  <img src="../docs/assets/images/ridgeplot1.png" width="700"/>
   </figure>
 
 Please see the [Bonus code](https://sib-swiss.github.io/enrichment-analysis-training/bonus_code/#code-for-a-lollipop-plot-with-ggplot2) page for an example of a lollipop plot with ggplot2. 
@@ -598,7 +598,7 @@ pathview(gene.data  = genePW,
 ```
 
   <figure>
-  <img src="../assets/images/hsa04650.pathview.png" width="700"/>
+  <img src="../docs/assets/images/hsa04650.pathview.png" width="700"/>
   </figure>
 
 
@@ -643,11 +643,11 @@ gseaplot2(h_NK_vs_Th, geneSetID = "HALLMARK_MTORC1_SIGNALING",
 ```
 
   <figure>
-  <img src="../assets/images/dotplot_hallmark.png" width="700"/>
+  <img src="../docs/assets/images/dotplot_hallmark.png" width="700"/>
   </figure>
 
   <figure>
-  <img src="../assets/images/gseaplot2_hallmark.png" width="700"/>
+  <img src="../docs/assets/images/gseaplot2_hallmark.png" width="700"/>
   </figure>
 
 
